@@ -34,8 +34,7 @@
 
   /* Spacing */
   --spacing-1: 1rem; /* 16px */
-  --spacing-2: 1.875rem; /* 30px */
-  --spacing-3: 2rem; /* 32px */
+  --spacing-2: 2rem; /* 32px */
   --spacing-4: 4.563rem; /* 73px */
 
   /* Borders */
@@ -72,7 +71,7 @@ body {
 .testimonial-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-3);
+  gap: var(--spacing-2);
   margin-block-start: var(--spacing-4);
   margin-block-end: var(--spacing-4);
 }
