@@ -61,7 +61,7 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   color: var(--grey-500);
-  background-color: var(--white);
+  background-color: var(--grey-100);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -116,5 +116,15 @@ body {
 }
 .testimonial-text {
   font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
   line-height: 1.35;
+}
+
+.testimonial:first-child {
+  background-color: var(--purple-500);
+  color: var(--white);
+}
+
+.testimonial:first-child .testimonial-image {
+  border: 2px solid var(--purple-300);
 }
